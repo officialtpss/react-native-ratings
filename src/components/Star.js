@@ -4,7 +4,7 @@ import {StyleSheet, Animated, TouchableOpacity} from 'react-native';
 const STAR_IMAGE = require( '../images/airbnb-star.png' );
 const STAR_SELECTED_IMAGE = require( '../images/airbnb-star-selected.png' );
 const STAR_SIZE = 40;
-const DEFAULT_TINT_COLOR = '#0ff5f5';
+const DEFAULT_TINT_COLOR = '#d1d1d1';
 
 export default class Star extends PureComponent {
   static defaultProps = {
